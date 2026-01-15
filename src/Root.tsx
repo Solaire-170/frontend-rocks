@@ -7,6 +7,7 @@ export const Root = () => {
       <Card title="bulbasaur - 1" />
       <Card title="ivysaur - 2"/>
       <Card title="venosaur - 3"/>
+      
     </div>
   );
 };
