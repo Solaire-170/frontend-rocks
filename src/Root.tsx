@@ -7,12 +7,12 @@ export const Root = () => {
       <Card title="bulbasaur - 1" />
       <Card title="ivysaur - 2"/>
       <Card title="venosaur - 3"/>
-      
+
     </div>
   );
 };
 
-const Card = (props: { title: string }) => {
+const Card = (props: { title: string, }) => {
   return (
     <div className="bg-gray-300 w-60 h-60 text-up flex items-start justify-center">
       {props.title}
